@@ -1,7 +1,7 @@
 # Introdução
 A artrite reumatoide é uma doença crônica autoimune que afeta principalmente as articulações, causando inflamação, dor e rigidez. O tratamento da artrite reumatoide apresenta desafios significativos devido à natureza complexa da doença e às diferentes respostas dos pacientes aos medicamentos disponíveis. Os medicamentos modificadores do curso da doença (MMCD) sintéticos são um dos tratamentos mais utilizados.   
 No entanto, mesmo com o uso dos MMCD sintéticos, nem todos os pacientes respondem de maneira adequada a esses medicamentos. Além disso, alguns pacientes podem desenvolver efeitos colaterais indesejáveis ou tolerância aos MMCD sintéticos ao longo do tempo. Portanto, é necessário considerar a troca de MMCD e explorar outras opções terapêuticas. Essa mudança de tratamento busca melhorar o controle da doença, aliviar os sintomas e retardar a progressão da artrite reumatoide.   
-Contudo, a opção de troca do tratamento para outras classes terapêuticas pode ocasionar um impacto financeiro significativo para o Sistema Único de Saúde, tendo em vista que preço dos medicamentos baricitinibe, tofacitinibe, upadacitinibe, adalimumabe, certolizumabe pegol, etanercepte, golimumabe, infliximabe, abatacepte, rituximabe e tocilizumabe é consideravelmente maior que os do MMCD sintéticos.
+Contudo, a opção de troca do tratamento para outras classes terapêuticas pode ocasionar um impacto financeiro significativo para o Sistema Único de Saúde, tendo em vista que preço dos medicamentos Abatacepte, Adalimumabe, Baricitinibe, Certolizumabe pegol, Etanercepte, Golimumabe, Infliximabe, Rituximabe, Tocilizumabe, Tofacitinibe, Upadacitinibe é consideravelmente maior que os do MMCD sintéticos.
 
 # Objetivo
 Criar modelo para prever a evolução do tratamento do paciente com artrite reumatoide, objetivando classificar se um paciente irá migrar do tratamento com MMCD sintético para medicamentos das classes biológico, MMCDsae ou MMCDbio, utilizando os dados do SIA/SUS no período de janeiro de 2018 a fevereiro de 2023.
@@ -65,7 +65,7 @@ Criar modelo para prever a evolução do tratamento do paciente com artrite reum
 - uso_tto_mmcd_triplo [bool]: Indica se o paciente fez uso de terapia tripla com MMCD;
 - meses_tto_mmcd_triplo [int]: Total de meses em uso da terapia tripla com MMCD;
 - meses_total_tto [int]: Total de meses de tratamento.
-# Dependente
+## Dependente
 - uso_outra_terapia [bool]: Indica se paciente utilizou baricitinibe, tofacitinibe, upadacitinibe, adalimumabe, certolizumabe pegol, etanercepte, golimumabe, infliximabe, abatacepte, rituximabe ou tocilizumabe.
 
 # Metodologia
