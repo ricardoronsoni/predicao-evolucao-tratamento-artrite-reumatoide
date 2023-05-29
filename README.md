@@ -8,7 +8,6 @@ Criar modelo para prever a evolução do tratamento do paciente com artrite reum
 
 # Variáveis
 ## Preditoras
-- cns_paciente [string]: Número do Cartão Nacional de Saúde do paciente criptografado. Chave que identifica o paciente;   
 - cid [string]: CID-10 do paciente com artrite reumatoide;   
 - idade_paciente_inicio_tto [int]: Idade do paciente no início do tratamento;   
 - sexo_paciente [string]: Sexo do paciente (F/M), conforme padrão do SIA/SUS;   
